@@ -13,7 +13,7 @@ def create_monthly_df(day_df):
     monthly_df = day_df.groupby(["mnth", "yr"])["cnt"].sum().reset_index()
     return monthly_df   
 
-all_df = pd.read_csv("https://raw.githubusercontent.com/Meazzaa/Proyek-Analisis-Data-Bike-Sharing-Dataset/main/Data/day.csv")
+all_df = pd.read_csv("Data/day.csv")
 
 season_df = create_season_df(all_df)
 monthly_df = create_monthly_df(all_df)
