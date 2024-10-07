@@ -30,7 +30,7 @@ with st.sidebar:
 
     st.sidebar.header("About")
     st.sidebar.write("This dashboard visualizes the number of bike rentals by season and month. The dataset contains data about bike sharing in 2012. You can filter the data using the year and month filters for more specific insights.")
-    st.sidebar.caption("Created by: Meazzaa")
+    st.sidebar.caption("Created by: Silvester")
 
 # Filter data based on user input
 filtered_season_df = season_df[(season_df['yr'] == year_filter)]
