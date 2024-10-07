@@ -10,4 +10,4 @@ pip install -r /path/to/requirements.txt
 streamlit run dashboard.py
 ```
 ## Dashboard URL
-[Dashboard] (https://hfp3n5kj6wgkvcofybgfaz.streamlit.app/)
+[Dashboard](https://hfp3n5kj6wgkvcofybgfaz.streamlit.app/)
