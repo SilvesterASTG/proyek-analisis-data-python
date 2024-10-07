@@ -14,7 +14,7 @@ def create_monthly_df(day_df):
     return monthly_df   
 
 # Load dataset
-all_df = pd.read_csv("Data/day.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/SilvesterASTG/proyek-analisis-data-python/refs/heads/main/Data/day.csv")
 
 season_df = create_season_df(all_df)
 monthly_df = create_monthly_df(all_df)
